@@ -5,7 +5,7 @@ from skimage.metrics import structural_similarity as ssim
 import imagehash
 from sklearn.metrics import precision_score, recall_score, f1_score
 
-# Load images (assuming they are named image0.png, image1.png, etc.)
+# Load images
 images = [Image.open(f'identical/image{i}.png') for i in range(10)]
 
 # Ground truth list
