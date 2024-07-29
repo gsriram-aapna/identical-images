@@ -1,7 +1,6 @@
 import numpy as np
 from PIL import Image
 
-# Function to calculate Mean Squared Error (MSE) between two images
 def mse_compare(img1, img2):
     img1 = np.array(img1)
     img2 = np.array(img2)
