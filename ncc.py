@@ -2,7 +2,6 @@ import cv2
 import numpy as np
 from PIL import Image
 
-# Function to calculate Normalized Cross-Correlation (NCC) between two images
 def ncc_compare(img1, img2):
     img1 = np.array(img1.convert('L'))  # Convert image to grayscale and to numpy array
     img2 = np.array(img2.convert('L'))  # Convert image to grayscale and to numpy array
